@@ -83,7 +83,7 @@ deploy:
   branch: master
   name: dashub
   email: denglietao@qq.com
-  privateKey:  ./coding_paging_rsa
+  IdentityFile :  ./coding_paging_rsa
   extend_dirs: /
   ignore_hidden:
     public: false
