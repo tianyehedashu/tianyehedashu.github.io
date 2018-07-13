@@ -78,14 +78,22 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repository: git@git.coding.net:dashub/blog.git
-  branch: master
-  name: dashub
-  email: denglietao@qq.com
-  IdentityFile :  ./coding_paging_rsa
-  extend_dirs: /
-  ignore_hidden:
-    public: false
-  ignore_pattern: node_modules/*
+  - type: git
+    repository: git@git.coding.net:dashub/blog.git
+    branch: master
+    name: tianyehedashu
+    email: denglietao@qq.com
+    extend_dirs: /
+    ignore_hidden:
+      public: false
+    ignore_pattern: node_modules/*
+  - type: git
+    repository: git@github.com:tianyehedashu/tianyehedashu.github.io.git
+    branch: master
+    name: tianyehedashu
+    email: denglietao@qq.com
+    extend_dirs: /
+    ignore_hidden:
+      public: false
+    ignore_pattern: node_modules/*
 
