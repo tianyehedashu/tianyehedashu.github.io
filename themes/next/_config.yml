@@ -478,9 +478,9 @@ pangu: false
 
 # Disqus
 disqus:
-  enable: true
-  shortname:
-  count: true
+  enable: false
+  shortname: false
+  count: false 
   lazyload: true
 
 # changyan
@@ -511,7 +511,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: MTAyMC8zODAxNy8xNDU0Nw==
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
