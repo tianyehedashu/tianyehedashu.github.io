@@ -69,7 +69,7 @@ npm run cover
 }
 ```
 ## 遇到的问题
-1. mocha 要等所有打开的资源关闭后才能结束，就算case已经跑完，mocha 不结束，nyc就不能够生成报告.
+1. mocha 要等所有打开的资源关闭后才能结束，比如数据库的连接，就算case已经跑完，mocha也不结束，nyc就不能够生成报告.
 2. mocha case报错也不能生成报告.
 3. mocha 中如果使用了异步方法，那么2s后异步方法没有完成，case自动失败，通过如下配置 延长超时时间
    ```JSON
@@ -100,8 +100,13 @@ npm run cover
             }
     }
     ```
+### Mocha中有用的功能
+  用mocha编写测试用例的时候，如果已经存在了很多测试，用npm test 跑会执行所有的case，造成干扰，不方便验证正在执行的功能, 解决办法：  
+  * 用  **it.only**  的形式可以只执行单独的case
+  * 如果有多个 **it.only** ,那么所有的it.only 都会执行
 
-### relactive link  
+### 相关链接  
 1. [istanbul with mocha](https://istanbul.js.org/docs/tutorials/mocha/)  
 2. [nyc git hub](https://github.com/istanbuljs/nyc)
 {% fi /images/timg.jpg %}
+3. [mocha liaoxuefeng](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00147203593334596b366f3fe0b409fbc30ad81a0a91c4a000)
