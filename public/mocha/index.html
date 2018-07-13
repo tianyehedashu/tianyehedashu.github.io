@@ -117,7 +117,7 @@
 <meta property="og:description" content="Quick start12npm  install --save-dev nycnpm  install --save-dev istanbul and add fellow code to you package.json12345&amp;#123;  &quot;scripts&quot;: &amp;#123;    &quot;cover&quot;: &quot;nyc --reporter=lcov --reporter=text-lcov moc">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://denglietao.com/images/timg.jpg">
-<meta property="og:updated_time" content="2018-07-13T04:05:40.689Z">
+<meta property="og:updated_time" content="2018-07-13T05:07:04.966Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="istanbul 结合 mocha 生成 coverage">
 <meta name="twitter:description" content="Quick start12npm  install --save-dev nycnpm  install --save-dev istanbul and add fellow code to you package.json12345&amp;#123;  &quot;scripts&quot;: &amp;#123;    &quot;cover&quot;: &quot;nyc --reporter=lcov --reporter=text-lcov moc">
@@ -224,7 +224,7 @@
           
           <li class="menu-item menu-item-home">
     <a href="/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />Home</a>
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />Startseite</a>
   </li>
         
         
@@ -232,7 +232,7 @@
           
           <li class="menu-item menu-item-archives">
     <a href="/archives/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archives</a>
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archiv</a>
   </li>
 
       
@@ -318,14 +318,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Created: 2018-07-10 17:13:09" itemprop="dateCreated datePublished" datetime="2018-07-10T17:13:09+08:00">2018-07-10</time>
+              <time title="Post created: 2018-07-10 17:13:09" itemprop="dateCreated datePublished" datetime="2018-07-10T17:13:09+08:00">2018-07-10</time>
             
 
             
@@ -342,7 +342,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-07-13 12:05:40" itemprop="dateModified" datetime="2018-07-13T12:05:40+08:00">2018-07-13</time>
+                <time title="Updated at: 2018-07-13 13:07:04" itemprop="dateModified" datetime="2018-07-13T13:07:04+08:00">2018-07-13</time>
               
             
           </span>
@@ -390,12 +390,12 @@
 <p>now you can run test by:</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm run cover</span><br></pre></td></tr></table></figure>
 <h2 id="ES6支持"><a href="#ES6支持" class="headerlink" title="ES6支持"></a>ES6支持</h2><h3 id="安装-转换和配置相关的包"><a href="#安装-转换和配置相关的包" class="headerlink" title="安装 转换和配置相关的包"></a>安装 转换和配置相关的包</h3>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">npm install --save-dev babel-plugin-istanbul</span><br><span class="line">npm install --save-dev cross-env</span><br><span class="line">npm install --save-dev @babel/register</span><br><span class="line">npm install --save-dev babel-plugin-transform-runtim</span><br><span class="line">npm install --save-dev babel-preset-env</span><br><span class="line">npm install --save-dev babel-register</span><br></pre></td></tr></table></figure>
-<h3 id="增加相关配置"><a href="#增加相关配置" class="headerlink" title="增加相关配置"></a>增加相关配置</h3><p>增加如下代码到.bablerc<br><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"babel"</span>: &#123;</span><br><span class="line">    <span class="attr">"presets"</span>: [<span class="string">"@babel/env"</span>],</span><br><span class="line">    <span class="attr">"env"</span>: &#123;</span><br><span class="line">      <span class="attr">"test"</span>: &#123;</span><br><span class="line">        <span class="attr">"plugins"</span>: [<span class="string">"istanbul"</span>]</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h3 id="增加相关配置"><a href="#增加相关配置" class="headerlink" title="增加相关配置"></a>增加相关配置</h3><p>增加如下代码到.bablerc<br><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"babel"</span>: &#123;</span><br><span class="line">    <span class="attr">"presets"</span>: [<span class="string">"@babel/env"</span>]c,</span><br><span class="line">    <span class="attr">"env"</span>: &#123;</span><br><span class="line">      <span class="attr">"test"</span>: &#123;</span><br><span class="line">        <span class="attr">"plugins"</span>: [<span class="string">"istanbul"</span>]</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <p>增加下面代码到package.json<br><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"nyc"</span>: &#123;</span><br><span class="line">    <span class="attr">"require"</span>: [</span><br><span class="line">      <span class="string">"@babel/register"</span></span><br><span class="line">    ],</span><br><span class="line">    <span class="attr">"reporter"</span>: [</span><br><span class="line">      <span class="string">"lcov"</span>,</span><br><span class="line">      <span class="string">"text"</span>,</span><br><span class="line">      <span class="string">"html"</span></span><br><span class="line">    ],</span><br><span class="line">    <span class="attr">"sourceMap"</span>: <span class="literal">false</span>,</span><br><span class="line">    <span class="attr">"instrument"</span>: <span class="literal">false</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">"scripts"</span>: &#123;</span><br><span class="line">    <span class="attr">"test"</span>: <span class="string">"cross-env NODE_ENV=test nyc mocha"</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><ol>
 <li>mocha 要等所有打开的资源关闭后才能结束，比如数据库的连接，就算case已经跑完，mocha也不结束，nyc就不能够生成报告.</li>
 <li>mocha case报错也不能生成报告.</li>
-<li><p>mocha 中如果使用了异步方法，那么2s后异步方法没有完成，case自动失败，通过如下配置 延长超时时间</p>
+<li><p>mocha 中如果使用了异步方法，那么2s后异步方法没有完成，case自动失败，通过如下配置 延长超时时间c</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">"scripts": &#123; </span><br><span class="line">    "cover": "cross-env NODE_ENV=covertest nyc   mocha --timeout=5000" </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>如果你的NODE_ENV不是test，那么需要在.bablerc中增加对应的配置<br>如下：</p>
@@ -410,10 +410,10 @@
 <h3 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h3><ol>
 <li><a href="https://istanbul.js.org/docs/tutorials/mocha/" target="_blank" rel="noopener">istanbul with mocha</a>  </li>
 <li><a href="https://github.com/istanbuljs/nyc" target="_blank" rel="noopener">nyc官网 github</a></li>
-<li><a href="https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00147203593334596b366f3fe0b409fbc30ad81a0a91c4a000" target="_blank" rel="noopener">mocha 廖雪峰老师的mocah介绍</a></li>
+<li><a href="https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00147203593334596b366f3fe0b409fbc30ad81a0a91c4a000" target="_blank" rel="noopener">mocha 廖雪峰老师的mocah介绍</a><br>4.test  <blockquote class="blockquote-center"><p><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="/images/timg.jpg" class="full-image"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span> </p>
+</blockquote></li>
 </ol>
-<blockquote class="blockquote-center"><p><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="/images/timg.jpg" class="full-image"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span> </p>
-</blockquote>
+
       
     </div>
 
@@ -510,10 +510,10 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            Table of Contents
+            Inhaltsverzeichnis
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            Overview
+            Übersicht
           </li>
         </ul>
       
@@ -534,7 +534,7 @@
                   <a href="/archives/">
                 
                     <span class="site-state-item-count">2</span>
-                    <span class="site-state-item-name">posts</span>
+                    <span class="site-state-item-name">Artikel</span>
                   </a>
                 </div>
               
@@ -551,7 +551,7 @@
                       
                     
                     <span class="site-state-item-count">1</span>
-                    <span class="site-state-item-name">tags</span>
+                    <span class="site-state-item-name">Tags</span>
                   
                 </div>
               
@@ -620,7 +620,7 @@
 
 
 
-  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> v3.7.1</div>
+  <div class="powered-by">Erstellt mit  <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> v3.7.1</div>
 
 
 
