@@ -82,7 +82,7 @@ deploy:
   repository: git@git.coding.net:dashub/blog.git
   branch: master
   name: dashub
-  email: 592395647@qq.com
+  email: denglietao@qq.com
   extend_dirs: /
   ignore_hidden:
     public: false
