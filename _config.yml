@@ -82,6 +82,7 @@ deploy:
     repository: git@git.coding.net:dashub/blog.git
     branch: master
     name: tianyehedashu
+    extend_dirs: /
     email: denglietao@qq.com
     ignore_hidden:
       public: false
@@ -90,7 +91,6 @@ deploy:
     branch: master
     name: tianyehedashu
     email: denglietao@qq.com
-    extend_dirs: /
     ignore_hidden:
       public: false
     ignore_pattern: node_modules/*
