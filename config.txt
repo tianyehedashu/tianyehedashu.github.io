@@ -1,4 +1,0 @@
-Host git.coding.net
-    HostName git.coding.net
-    User git  
-    IdentityFile ~/.ssh/coding_paging_rsa
