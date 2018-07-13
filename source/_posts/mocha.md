@@ -39,7 +39,7 @@ npm run cover
 ```JSON
   {
     "babel": {
-      "presets": ["@babel/env"]c,
+      "presets": ["@babel/env"],
       "env": {
         "test": {
           "plugins": ["istanbul"]
@@ -109,5 +109,4 @@ npm run cover
 1. [istanbul with mocha](https://istanbul.js.org/docs/tutorials/mocha/)  
 2. [nyc官网 github](https://github.com/istanbuljs/nyc)
 3. [mocha 廖雪峰老师的mocah介绍](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00147203593334596b366f3fe0b409fbc30ad81a0a91c4a000)  
-4.test  
 {% centerquote %} {% fi /images/timg.jpg %} {% endcenterquote %}
