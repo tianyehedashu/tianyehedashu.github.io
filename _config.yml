@@ -84,8 +84,7 @@ deploy:
   name: tianyehedashu
   email: denglietao@qq.com
   extend_dirs: /
-  extend_files: 
-    - CNAME
   ignore_hidden:
     public: false
-  ignore_pattern: node_modules/*
+  ignore_pattern: 
+    - node_modules
